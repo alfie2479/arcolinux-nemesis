@@ -59,10 +59,8 @@ if [ ! -f /usr/share/wayland-sessions/plasma.desktop ]; then
   sudo pacman -S --noconfirm --needed alacritty
   sudo pacman -S --noconfirm --needed arandr
   sudo pacman -S --noconfirm --needed awesome-terminal-fonts
-  sudo pacman -S --noconfirm --needed catfish
   sudo pacman -S --noconfirm --needed dmenu
   sudo pacman -S --noconfirm --needed evince
-  sudo pacman -S --noconfirm --needed galculator
   sudo pacman -S --noconfirm --needed network-manager-applet
   sudo pacman -S --noconfirm --needed networkmanager-openvpn
   sudo pacman -S --noconfirm --needed networkmanager
@@ -92,14 +90,11 @@ sudo pacman -S --noconfirm --needed bibata-cursor-theme
 sudo pacman -S --noconfirm --needed brave-bin
 sudo pacman -S --noconfirm --needed breeze-icons
 sudo pacman -S --noconfirm --needed btop
-sudo pacman -S --noconfirm --needed chromium
 sudo pacman -S --noconfirm --needed curl
 sudo pacman -S --noconfirm --needed dconf-editor
 sudo pacman -S --noconfirm --needed debugedit
 sudo pacman -S --noconfirm --needed devtools
-sudo pacman -S --noconfirm --needed discord
 sudo pacman -S --noconfirm --needed downgrade
-sudo pacman -S --noconfirm --needed dropbox
 if [ ! -f /usr/bin/duf ]; then
   sudo pacman -S --noconfirm --needed duf
 fi
@@ -111,7 +106,6 @@ sudo pacman -S --noconfirm --needed file-roller
 sudo pacman -S --noconfirm --needed firefox
 sudo pacman -S --noconfirm --needed fish
 sudo pacman -S --noconfirm --needed font-manager
-sudo pacman -S --noconfirm --needed gimp
 sudo pacman -S --noconfirm --needed git
 sudo pacman -S --noconfirm --needed gnome-disk-utility
 sudo pacman -S --noconfirm --needed gparted
@@ -122,8 +116,6 @@ sudo pacman -S --noconfirm --needed hardinfo2
 sudo pacman -S --noconfirm --needed hddtemp
 sudo pacman -S --noconfirm --needed hw-probe
 sudo pacman -S --noconfirm --needed hyfetch
-sudo pacman -S --noconfirm --needed inkscape
-sudo pacman -S --noconfirm --needed insync
 sudo pacman -S --noconfirm --needed linux-firmware-qlogic
 sudo pacman -S --noconfirm --needed logrotate
 sudo pacman -S --noconfirm --needed lolcat
@@ -134,7 +126,6 @@ sudo pacman -S --noconfirm --needed man-pages
 sudo pacman -S --noconfirm --needed mkinitcpio-firmware
 sudo pacman -S --noconfirm --needed plocate
 sudo pacman -S --noconfirm --needed meld
-sudo pacman -S --noconfirm --needed micro
 sudo pacman -S --noconfirm --needed mintstick
 sudo pacman -S --noconfirm --needed most
 sudo pacman -S --noconfirm --needed namcap
@@ -161,8 +152,6 @@ sudo pacman -S --noconfirm --needed speedtest-cli
 sudo pacman -S --noconfirm --needed spotify
 sudo pacman -S --noconfirm --needed squashfs-tools
 sudo pacman -S --noconfirm --needed sublime-text-4
-sudo pacman -S --noconfirm --needed system-config-printer
-sudo pacman -S --noconfirm --needed telegram-desktop
 sudo pacman -S --noconfirm --needed the_silver_searcher
 sudo pacman -S --noconfirm --needed time
 sudo pacman -S --noconfirm --needed thunar
@@ -181,9 +170,6 @@ sudo pacman -S --noconfirm --needed ttf-roboto-mono
 sudo pacman -S --noconfirm --needed ttf-ubuntu-font-family
 sudo pacman -S --noconfirm --needed upd72020x-fw
 sudo pacman -S --noconfirm --needed variety
-sudo pacman -S --noconfirm --needed visual-studio-code-bin
-sudo pacman -S --noconfirm --needed vivaldi
-sudo pacman -S --noconfirm --needed vivaldi-ffmpeg-codecs
 sudo pacman -S --noconfirm --needed vlc
 sudo pacman -S --noconfirm --needed wd719x-firmware
 sudo pacman -S --noconfirm --needed wget
