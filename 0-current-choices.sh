@@ -226,7 +226,7 @@ sh 110-install-nemesis-software*
 sh 120-install-core-software*
 
 sh 160-install-bluetooth*
-sh 170-install-cups*
+# sh 170-install-cups*
 
 #packages we need to build
 sh 200-software-aur-repo*
