@@ -84,7 +84,7 @@ if [ ! -f /usr/share/wayland-sessions/plasma.desktop ]; then
   sudo pacman -S --noconfirm --needed catfish
   sudo pacman -S --noconfirm --needed dmenu
   sudo pacman -S --noconfirm --needed evince
-  sudo pacman -S --noconfirm --needed galculator
+  #sudo pacman -S --noconfirm --needed galculator
   sudo pacman -S --noconfirm --needed network-manager-applet
   sudo pacman -S --noconfirm --needed networkmanager-openvpn
   sudo pacman -S --noconfirm --needed networkmanager
@@ -101,7 +101,7 @@ fi
 # All the software below will be installed on all desktops
 
 sudo pacman -S --noconfirm --needed fastfetch-git
-sudo pacman -S --noconfirm --needed neofetch-git
+#sudo pacman -S --noconfirm --needed neofetch-git
 sudo pacman -S --noconfirm --needed yay-git
 sudo pacman -S --noconfirm --needed paru-git
 
@@ -116,14 +116,14 @@ sudo pacman -S --noconfirm --needed bibata-cursor-theme
 sudo pacman -S --noconfirm --needed brave-bin
 sudo pacman -S --noconfirm --needed breeze-icons
 sudo pacman -S --noconfirm --needed btop
-sudo pacman -S --noconfirm --needed chromium
+#sudo pacman -S --noconfirm --needed chromium
 sudo pacman -S --noconfirm --needed curl
 sudo pacman -S --noconfirm --needed dconf-editor
 sudo pacman -S --noconfirm --needed debugedit
 sudo pacman -S --noconfirm --needed devtools
-sudo pacman -S --noconfirm --needed discord
+#sudo pacman -S --noconfirm --needed discord
 sudo pacman -S --noconfirm --needed downgrade
-sudo pacman -S --noconfirm --needed dropbox
+#sudo pacman -S --noconfirm --needed dropbox
 if [ ! -f /usr/bin/duf ]; then
   sudo pacman -S --noconfirm --needed duf
 fi
@@ -131,7 +131,7 @@ sudo pacman -S --noconfirm --needed expac
 sudo pacman -S --noconfirm --needed fakeroot
 sudo pacman -S --noconfirm --needed feh
 sudo pacman -S --noconfirm --needed file-roller
-sudo pacman -S --noconfirm --needed firefox
+#sudo pacman -S --noconfirm --needed firefox
 sudo pacman -S --noconfirm --needed fish
 sudo pacman -S --noconfirm --needed font-manager
 sudo pacman -S --noconfirm --needed gimp
@@ -174,7 +174,7 @@ sudo pacman -S --noconfirm --needed qbittorrent
 sudo pacman -S --noconfirm --needed rate-mirrors
 sudo pacman -S --noconfirm --needed ripgrep
 sudo pacman -S --noconfirm --needed rsync
-sudo pacman -S --noconfirm --needed scrot
+#sudo pacman -S --noconfirm --needed scrot
 sudo pacman -S --noconfirm --needed signal-in-tray
 sudo pacman -S --noconfirm --needed smartmontools
 sudo pacman -S --noconfirm --needed speedtest-cli
@@ -182,8 +182,8 @@ sudo pacman -S --noconfirm --needed spotify
 sudo pacman -S --noconfirm --needed squashfs-tools
 sudo pacman -S --noconfirm --needed sublime-text-4
 sudo pacman -S --noconfirm --needed system-config-printer
-sudo pacman -S --noconfirm --needed telegram-desktop
-sudo pacman -S --noconfirm --needed the_silver_searcher
+#sudo pacman -S --noconfirm --needed telegram-desktop
+#sudo pacman -S --noconfirm --needed the_silver_searcher
 sudo pacman -S --noconfirm --needed time
 sudo pacman -S --noconfirm --needed thunar
 sudo pacman -S --noconfirm --needed thunar-archive-plugin
@@ -201,10 +201,10 @@ sudo pacman -S --noconfirm --needed ttf-roboto-mono
 sudo pacman -S --noconfirm --needed ttf-ubuntu-font-family
 sudo pacman -S --noconfirm --needed upd72020x-fw
 sudo pacman -S --noconfirm --needed variety
-sudo pacman -S --noconfirm --needed visual-studio-code-bin
-sudo pacman -S --noconfirm --needed vivaldi
-sudo pacman -S --noconfirm --needed vivaldi-ffmpeg-codecs
-sudo pacman -S --noconfirm --needed vlc
+#sudo pacman -S --noconfirm --needed visual-studio-code-bin
+#sudo pacman -S --noconfirm --needed vivaldi
+#sudo pacman -S --noconfirm --needed vivaldi-ffmpeg-codecs
+#sudo pacman -S --noconfirm --needed vlc
 sudo pacman -S --noconfirm --needed wd719x-firmware
 sudo pacman -S --noconfirm --needed wget
 sudo pacman -S --noconfirm --needed xdg-user-dirs
