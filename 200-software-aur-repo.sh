@@ -73,21 +73,7 @@ if ! grep -q "artix" /etc/os-release; then
 		echo
 
 	fi
-fi
 
-echo
-tput setaf 2
-echo "########################################################################"
-echo "################### Build from AUR"
-echo "########################################################################"
-tput sgr0
-echo
-
-if ! pacman -Qi opera &>/dev/null; then
-    yay -S opera --noconfirm
-else
-    echo "Opera is already installed."
-fi
 
 echo
 tput setaf 6
