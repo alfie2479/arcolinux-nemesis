@@ -38,8 +38,8 @@ echo "--------------------------------------------------------------------------
 echo "this is project https://github.com/erikdubois/"$project
 echo "-----------------------------------------------------------------------------"
 git config --global pull.rebase false
-git config --global user.name "Erik Dubois"
-git config --global user.email "erik.dubois@gmail.com"
+git config --global user.name "alfie2479"
+git config --global user.email "alfie2479@proton.me"
 sudo git config --system core.editor nano
 #git config --global credential.helper cache
 #git config --global credential.helper 'cache --timeout=32000'
