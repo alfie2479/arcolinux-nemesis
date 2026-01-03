@@ -289,7 +289,7 @@ echo
 #first get tools for whatever distro
 sudo pacman -S sublime-text-4 --noconfirm --needed
 sudo pacman -S ripgrep --noconfirm --needed
-sudo pacman -S meld --noconfirm --needed
+#sudo pacman -S meld --noconfirm --needed
 
 # if on Arco... and systemd-boot is chosen, then proceed with
 if [[ -f /etc/dev-rel ]]; then
@@ -333,7 +333,7 @@ sh 200-software-aur-repo*
 sh 500-plasma*
 
 # installation of Chadwm
-sh 600-chadwm*
+#sh 600-chadwm*
 
 echo
 tput setaf 3
