@@ -149,7 +149,7 @@ sudo pacman -S --noconfirm --needed file-roller
 sudo pacman -S --noconfirm --needed firefox
 sudo pacman -S --noconfirm --needed fish
 sudo pacman -S --noconfirm --needed font-manager
-sudo pacman -S --noconfirm --needed gimp
+#sudo pacman -S --noconfirm --needed gimp
 sudo pacman -S --noconfirm --needed git
 sudo pacman -S --noconfirm --needed gnome-disk-utility
 sudo pacman -S --noconfirm --needed gparted
@@ -160,7 +160,7 @@ sudo pacman -S --noconfirm --needed hardinfo2
 #sudo pacman -S --noconfirm --needed hddtemp
 #sudo pacman -S --noconfirm --needed hyfetch
 sudo pacman -S --noconfirm --needed inetutils
-sudo pacman -S --noconfirm --needed inkscape
+#sudo pacman -S --noconfirm --needed inkscape
 sudo pacman -S --noconfirm --needed logrotate
 sudo pacman -S --noconfirm --needed lolcat
 sudo pacman -S --noconfirm --needed lsb-release
@@ -247,9 +247,9 @@ fi
 #sudo pacman -S --noconfirm --needed dropbox
 sudo pacman -S --noconfirm --needed hw-probe
 sudo pacman -S --noconfirm --needed insync
-sudo pacman -S --noconfirm --needed signal-in-tray
+#sudo pacman -S --noconfirm --needed signal-in-tray
 sudo pacman -S --noconfirm --needed spotify
-sudo pacman -S --noconfirm --needed telegram-desktop
+#sudo pacman -S --noconfirm --needed telegram-desktop
 
 tput setaf 6
 echo "##############################################################"
